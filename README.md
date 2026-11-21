@@ -1,6 +1,6 @@
-# pip Update Notifier
+# uv Update Notifier
 
-This project will *automatically* notify you in the form of a pull request when your favorite Python packages (pip) are updated.
+This project will *automatically* notify you in the form of a pull request when your favorite Python packages are updated.
 
 <!--![Screenshot of an example run of this project, showing the pull request that was automatically created when it notified about updating actions/cache from version 3 to 4](image.png)-->
 
@@ -12,7 +12,7 @@ This project will *automatically* notify you in the form of a pull request when 
    uv lock
    ```
    Commit both `pyproject.toml` and `uv.lock`.
-4. Set up and run Dependabot, specifically targeting pip packages.
+4. Set up and run Dependabot, specifically targeting uv packages.
    1. Go to your forked repository on GitHub.
    2. Click on the "Settings" tab.
    3. On the left sidebar, click on "Code Security".
@@ -42,4 +42,4 @@ You choose what notifications you want. You can monitor only the full releases (
 
 *This project is based off of my [pip Update Notifier](https://github.com/BenRogersWPG/pip-Update-Notifier).*
 
-[![Dependabot Updates](https://github.com/BenRogersWPG/pip-Update-Notifier/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/BenRogersWPG/pip-Update-Notifier/actions/workflows/dependabot/dependabot-updates)
+[![Dependabot Updates](https://github.com/BenRogersWPG/uv-Update-Notifier/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/BenRogersWPG/uv-Update-Notifier/actions/workflows/dependabot/dependabot-updates)
