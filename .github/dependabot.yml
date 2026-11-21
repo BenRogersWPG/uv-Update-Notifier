@@ -17,6 +17,7 @@ updates:
       default-days: 5
     assignees:
       - "BenRogersWPG"
+    # Remove this once newspaper4k supports python-dateutil 4.x.
     ignore:
       - dependency-name: "python-dateutil"
         update-types:
