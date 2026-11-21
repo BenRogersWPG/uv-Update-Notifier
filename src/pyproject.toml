@@ -1,0 +1,78 @@
+[project]
+name = "pip-update-notifier"
+version = "0.1.0"
+description = "Monitor pinned Python package versions with Dependabot."
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+package = false
+
+[dependency-groups]
+base = [
+    "requests==2.34.2",
+]
+gm = [
+    "gtts==2.5.4",
+    "packaging==26.3",
+    "python-dateutil==2.9.0.post0",
+    "newspaper4k==0.9.6.1",
+    "pillow==13.0.0",
+    "tldextract==5.4.0",
+    "filelock==4.2.10",
+    "lxml==6.1.3",
+    "lxml-html-clean==0.4.6",
+    "PyYAML==6.0.3",
+    "certifi==2026.10.23",
+    "eyed3==0.9.9",
+    "mutagen==1.48.1",
+    "praw==8.0.3",
+    "requests==2.34.2",
+]
+bfg = [
+    "PyGithub==2.10.0",
+    "beautifulsoup4==4.15.0",
+    "cryptography==48.0.1",
+    "patchright==1.64.4",
+    "requests==2.34.2",
+]
+har = [
+    "selenium==4.52.0",
+    "requests==2.34.2",
+    "haralyzer==2.4.0",
+]
+tbwp = [
+    "PyGithub==2.10.0",
+    "beautifulsoup4==4.15.0",
+    "requests==2.34.2",
+    "pysocks==1.7.1",
+    "pycparser==3.12",
+    "packaging==26.3",
+    "cryptography==48.0.1",
+]
+wm = [
+    "PyGithub==2.10.0",
+    "selenium==4.52.0",
+    "packaging==26.3",
+    "beautifulsoup4==4.15.0",
+    "pysocks==1.7.1",
+    "pycparser==3.12",
+    "sniffio==1.3.1",
+    "typing_extensions==4.16.0",
+    "webdriver-manager==4.1.2",
+    "sortedcontainers==2.4.0",
+    "python-dotenv==1.2.4",
+    "requests==2.34.2",
+    "trio==0.35.0",
+    "cryptography==48.0.1",
+    "pillow==13.0.0",
+    "selenium-wire==5.1.0",
+    "urllib3==2.8.0",
+    "certifi==2026.10.23",
+    "idna==3.20",
+    "h11==0.16.0",
+    "outcome==1.3.0.post0",
+    "aiofiles==25.1.0",
+    "praw==8.0.3",
+    "markdown==3.11.3",
+]
