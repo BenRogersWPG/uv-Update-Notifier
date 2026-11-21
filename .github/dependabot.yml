@@ -17,3 +17,7 @@ updates:
       default-days: 5
     assignees:
       - "BenRogersWPG"
+    ignore:
+      - dependency-name: "python-dateutil"
+        update-types:
+          - "version-update:semver-major"
