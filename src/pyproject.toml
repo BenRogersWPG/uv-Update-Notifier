@@ -37,7 +37,7 @@ bfg = [
     "requests==2.34.2",
 ]
 har = [
-    "selenium==4.52.0",
+    "selenium==4.53.0",
     "requests==2.34.2",
     "haralyzer==2.4.0",
 ]
@@ -52,7 +52,7 @@ tbwp = [
 ]
 wm = [
     "PyGithub==2.10.0",
-    "selenium==4.52.0",
+    "selenium==4.53.0",
     "packaging==26.3",
     "beautifulsoup4==4.15.0",
     "pysocks==1.7.1",
